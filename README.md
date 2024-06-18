@@ -25,10 +25,10 @@ Before running the project, ensure that you have the following installed and pro
    - Ensure that the necessary data files (e.g., human comments, ChatGPT responses) are available in the appropriate directories as specified in the code.
   
 
-**Project Overview**
+###Project Overview
 This project, conducted by researchers from the Department of Computer Science at SUNY Polytechnic Institute, aims to explore the emotional intelligence of ChatGPT, a large language model developed by OpenAI, by comparing its responses to human comments on Twitter. The study employs sentiment analysis techniques to assess and compare the emotional content of ChatGPT’s responses and human comments, focusing on the ability of ChatGPT to engage and communicate effectively with humans.
 
-**Objectives**
+###Objectives
 The primary objectives of this study are:
 
 To measure the emotional content and tone of ChatGPT's responses.
@@ -36,7 +36,7 @@ To compare these responses with human Twitter comments.
 To investigate how ChatGPT's emotional intelligence affects its ability to engage and communicate with humans.
 
 
-**Methodology**
+###Methodology
 The study uses a combination of various sentiment analysis techniques and tools to achieve its objectives. The approach includes:
 
 Data Collection: Gathering real-time human comments from Twitter using hashtags like #chatgpt, #llms, and #openai, resulting in a dataset of 429 unique comments.
@@ -45,7 +45,7 @@ Data Cleaning: Implementing a three-step cleaning process to remove noise and ir
 Data Transformation: Converting textual data to numerical format using pre-trained BERT embeddings with 768 dimensions.
 Unsupervised Sentiment Analysis: Applying the K-means clustering algorithm to analyze the emotional content of the comments and responses, followed by visualization using t-SNE.
 
-**Future Work**
+###Future Work
 Future research could extend this study by:
 
 Increasing the dataset size to include more diverse comments and responses.
