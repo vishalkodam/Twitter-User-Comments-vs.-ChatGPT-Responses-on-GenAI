@@ -41,11 +41,16 @@ To investigate how ChatGPT's emotional intelligence affects its ability to engag
 
 The study uses a combination of various sentiment analysis techniques and tools to achieve its objectives. The approach includes:
 
-**Data Collection:** Gathering real-time human comments from Twitter using hashtags like #chatgpt, #llms, and #openai, resulting in a dataset of 429 unique comments.
-**Exploratory Data Analysis (EDA):** Performing initial analyses to gain insights into the data, such as topic analysis and word frequency distribution.
-**Data Cleaning:** Implementing a three-step cleaning process to remove noise and irrelevant information from the data.
-**Data Transformation:** Converting textual data to numerical format using pre-trained BERT embeddings with 768 dimensions.
-**Unsupervised Sentiment Analysis:** Applying the K-means clustering algorithm to analyze the emotional content of the comments and responses, followed by visualization using t-SNE.
+1. **Data Collection:**
+   Gathering real-time human comments from Twitter using hashtags like #chatgpt, #llms, and #openai, resulting in a dataset of 429 unique comments.
+2. **Exploratory Data Analysis (EDA):**
+   Performing initial analyses to gain insights into the data, such as topic analysis and word frequency distribution.
+4. **Data Cleaning:**
+   Implementing a three-step cleaning process to remove noise and irrelevant information from the data.
+6. **Data Transformation:**
+   Converting textual data to numerical format using pre-trained BERT embeddings with 768 dimensions.
+8. **Unsupervised Sentiment Analysis:**
+   Applying the K-means clustering algorithm to analyze the emotional content of the comments and responses, followed by visualization using t-SNE.
 
 ### Future Work
 Future research could extend this study by:
